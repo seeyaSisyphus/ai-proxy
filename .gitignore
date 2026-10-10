@@ -1,0 +1,28 @@
+# Configuration files (contain API keys and sensitive credentials)
+config.js
+
+# Environment and sensitive backups
+.env
+.env.*
+env-backup-*/
+
+# Logs
+logs/
+*.log
+
+# Runtime data and state
+data/
+*.lock
+
+# Dependencies
+node_modules/
+
+# Temporary / capture / backup files
+*.bak*
+tmp-capture.*
+30
+50
+
+# OS files
+.DS_Store
+Thumbs.db
